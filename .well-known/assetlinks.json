@@ -1,1 +1,9 @@
-
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "zoilo",
+    "package_name": "com.example.zoilo",
+    "sha256_cert_fingerprints":
+    ["FE:FB:97:DF:90:B7:C1:31:92:47:49:B0:2E:AD:18:30:07:6F:EE:86:40:A0:EA:C4:00:A1:DC:4D:28:DF:9E:E3"]
+  }
+}]
