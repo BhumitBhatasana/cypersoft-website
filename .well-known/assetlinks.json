@@ -1,9 +1,11 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "zoilo",
-    "package_name": "com.example.zoilo",
-    "sha256_cert_fingerprints":
-    ["FE:FB:97:DF:90:B7:C1:31:92:47:49:B0:2E:AD:18:30:07:6F:EE:86:40:A0:EA:C4:00:A1:DC:4D:28:DF:9E:E3"]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.zoilo",
+      "sha256_cert_fingerprints":
+        ["43:CD:D8:0C:74:8F:27:D1:E2:A7:8A:14:4C:81:78:CD:8C:C0:95:7D:21:DF:8D:4E:1E:45:5C:2F:16:53:D7:02"]
+    }
   }
-}]
+]
