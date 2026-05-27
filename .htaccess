@@ -1,1 +1,8 @@
+RewriteEngine On
+
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\.cypersoft\.com$ [NC]
+
+RewriteRule ^(.*)$ https://www.cypersoft.com/$1 [L,R=301]
+
 ErrorDocument 404  /error-404.html
